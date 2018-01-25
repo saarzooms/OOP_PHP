@@ -5,7 +5,7 @@ $subject = "Test Mail using PHP mailer";
 $content = "<b>This is a test mail using PHP mailer class.from Heroku</b>";
 $mail->IsSMTP();
 $mail->SMTPDebug = 1;
-$mail->SMTPAuth = true;
+$mail->SMTPAuth = false;
 $mail->SMTPSecure = "none";
 $mail->Port     = 25;  
 $mail->Username = "postmaster@sandbox89f874254d224787840918e8bf9a804f.mailgun.org";
