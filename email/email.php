@@ -17,7 +17,7 @@ $mail->Host     = "smtp.mailgun.org";
 $mail->Mailer   = "smtp";
 $mail->SetFrom("vishalpatel16@gmail.com", "Vishal Patel");
 //$mail->AddReplyTo("vincy@phppot.com", "PHPPot");
-$mail->AddAddress("vishal.rkcet@gmail.com");
+$mail->AddAddress("arzoo.rkcet@gmail.com");
 $mail->Subject = $subject;
 $mail->WordWrap   = 80;
 $mail->MsgHTML($content);
