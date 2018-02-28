@@ -18,7 +18,7 @@ $mail->Password = "@llY07890";
 //$mail->Host     = "smtp.gmail.com";
 $mail->Host     = "sg2plcpnl0033.prod.sin2.secureserver.net";
 $mail->Mailer   = "smtp";
-$mail->SetFrom("vishalpatel16@gmail.com", "Vishal Patel");
+$mail->SetFrom("arzoo.rkcet@gmail.com", "Arzoo Shaikh");
 //$mail->AddReplyTo("vincy@phppot.com", "PHPPot");
 $mail->AddAddress("vishal.rkcet@gmail.com");
 $mail->Subject = $subject;
