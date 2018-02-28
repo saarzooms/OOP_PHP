@@ -26,13 +26,7 @@ $mail->WordWrap   = 80;
 $mail->MsgHTML($content);
 $mail->IsHTML(true);
 
-$mail->SMTPOptions = array(
-'ssl' => array(
-'verify_peer' => false,
-'verify_peer_name' => false,
-'allow_self_signed' => true
-)
-);
+
 
 if(!$mail->Send()) 
 	echo "Problem on sending mail";
