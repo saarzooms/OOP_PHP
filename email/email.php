@@ -7,7 +7,7 @@ $mail->IsSMTP();
 $mail->SMTPDebug = 0;
 $mail->SMTPAuth = false;
 $mail->SMTPSecure = "none";
-$mail->Port     = 587;  
+$mail->Port     = 25;  
 $mail->Username = "postmaster@sandbox89f874254d224787840918e8bf9a804f.mailgun.org";
 $mail->Password = "31527ba1cdd587c4bc2e93d7ca3a3240";
 //$mail->Username = "vishalpatel16@gmail.com";
